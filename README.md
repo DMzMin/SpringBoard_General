@@ -4,7 +4,7 @@ Hello!  Welcome to my little project space where I can submit documents and code
 
 Here you will find my answers to the Springboard mini projects including:
 
-1) My initial capstone ideas ("LMS_Capstone_Project_Ideas.txt")
+1) My initial capstone ideas ("LMS_Capstone_Ideas.Rmd")
 2) Code for Titanic exercise ("Titanic.R")
 3) Code for CHIS exercise ("CRIS.R")
 

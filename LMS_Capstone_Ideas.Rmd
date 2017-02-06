@@ -1,0 +1,57 @@
+---
+title: "LMS_Capstone_Ideas"
+author: "Louis MS"
+date: "6 February 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Capstone Project Ideas by Louis (LMS)
+
+## Idea 1) 
+The IDBM 5000 movie dataset has an interesting list of variables including:
+
+    a) director name
+    b) director FB likes
+    c) actor 1:3
+    d) actor 1:3 FB likes
+    e) Film gross (in $ ?)
+    f) Film budget
+    g) IMDB score (?)
+    h) Title year
+
+The dataset is found here: https://www.kaggle.com/deepmatrix/imdb-5000-movie-dataset
+
+Questions that could be explored:
+    - Do actors or directors bring in more money?
+    - How consistently does IMDB score track vs gross/budget vs all FB likes
+    - How does age track with gross/budget ratio
+    - Can a director / actor popularity index be made based upon their FB likes vs number of appearances vs film score?
+    
+Interesting information on the IBMD scores here:  http://www.imdb.com/help/show_leaf?votestopfaq could add to supporting or refuting questions on popularity.
+
+
+## Idea 2)
+Football (soccer) is an extremely popular sport in the UK dominating sports coverage, indicating that a large proportion of the population care about the sport and more specifically, the team they support.  Interesting questions that could be asked of the football community are: 
+   
+   - which statistics collected in football on individual players are the most important to winning? For example certain TV pundits claim that distance travelled in a 90 minute game is a key indicator of player performance.  How accurate is this statement?
+   
+   - can we generate a player index that evaluates a player’s technical worth vs amount paid for said player at the moment of transfer?  Is it possible to generate a bargin index indicating if the amount paid by a club for a player was a good or bad deal?  If this can be established what variables could be used to predict if a deal will be a good or bad deal?  Can we predict player performance in upcoming matches for their new club?
+    
+This should probably only focus on strikers as they are the easiest position to track.  Will be dependent on availability of player stats and transfer costs / dates.  Unfortunately no immediate dataset has been identified yet that could distill this information.
+
+
+## Idea 3)
+An interesting DOTA 2 dataset (https://www.kaggle.com/devinanzelmo/dota-2-matches) that has a collected data on 50,000 games.  This dataset links individual players to each match, which team they played for, who wins each match, how each player scored Player-Vs-Player (PvP) combat stats such as kills, deaths and assists and other stats such as denies, gold farming and xp farming.  It also records which heroes were selected for each game.  This range of information could lead to answering questions such as:
+
+    - As a new player which hero should I start out with? By examining historical match data is it possible to identify the easier heroes to play from the harder heroes to play?
+    - What strategy provides the best results?  
+        * Should I farm player kills or creep kills?
+        * Should I hoarde gold or push for XP gains?
+    - Can we determine if a game was played competitively or not?
+        * Can we distill games that were close from games where one team dominated?
+        
+The dataset is dense and highly correlatable between key variables.
