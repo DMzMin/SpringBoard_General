@@ -4,12 +4,10 @@ Hello!  Welcome to my little project space where I can submit documents and code
 
 Here you will find my answers to the Springboard mini projects including:
 
-1) My initial capstone ideas
-2) Data Wrangling Exercise 1: Basic Data Manipulation
-3) Data Wrangling Exercise 2: Deailing with Missing Values
-4) Code for Titanic exercise
-5) Code for CHIS exercise
+1) My initial capstone ideas ("LMS_Capstone_Project_Ideas.txt")
+2) Code for Titanic exercise ("Titanic.R")
+3) Code for CHIS exercise ("CRIS.R")
 
-As new projects are submitted this readme will be updated.  All other files not listed here but found in this repository are unfinished pieces of work in the making.
+As new projects are submitted this readme will be updated.  All other files not listed here but found in this repository are unfinished pieces of work in the making which will eventually be officially listed above.
 
 Thank you for your time!  Enjoy!
