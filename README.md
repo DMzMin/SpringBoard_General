@@ -7,6 +7,7 @@ Here you will find my answers to the Springboard mini projects including:
 1) My initial capstone ideas ("LMS_Capstone_Ideas.Rmd")
 2) Code for Titanic exercise ("Titanic.R")
 3) Code for CHIS exercise ("CRIS.R")
+4) code for linear regression exercise ("linear_regression.R")
 
 As new projects are submitted this readme will be updated.  All other files not listed here but found in this repository are unfinished pieces of work in the making which will eventually be officially listed above.
 
