@@ -261,4 +261,6 @@ plot(LMS.energy.metro4)
 LMS.energy.lm4 <- lm(energy ~ metro + region, data=LMS.states.data)
 summary(LMS.energy.lm4)
 
-# Adjusted R-squared has improved indicating that the model is a better fit
+# Adjusted R-squared has improved indicating that the model is a better fit but this maybe due
+# to the stacking effect adding extra variables have to the model. The summary shows that 
+# 'regionN. East' has a slightly better correlation than the other regions recorded.
